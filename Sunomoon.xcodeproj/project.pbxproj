@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A51CFB3225D72C5000FCD487 /* extraHelpForAddEditAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51CFB3125D72C5000FCD487 /* extraHelpForAddEditAlarmViewController.swift */; };
+		A51CFB4C25D74F4400FCD487 /* EditAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51CFB4B25D74F4400FCD487 /* EditAlarmViewController.swift */; };
+		A52BAE5725B7956300C214FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52E40AA25B25DAB007417A3 /* Main.storyboard */; };
+		A52E40A525B25DAB007417A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E40A425B25DAB007417A3 /* AppDelegate.swift */; };
+		A52E40A725B25DAB007417A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E40A625B25DAB007417A3 /* SceneDelegate.swift */; };
+		A52E40A925B25DAB007417A3 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E40A825B25DAB007417A3 /* TodayViewController.swift */; };
+		A52EAF6B25D5EED700F6BEB1 /* AlarmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EAF6A25D5EED700F6BEB1 /* AlarmData.swift */; };
+		A537FF2E25B77427002E0E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A537FF2D25B77427002E0E09 /* LaunchScreen.storyboard */; };
+		A537FF3725B7818D002E0E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52E40AD25B25DB1007417A3 /* Assets.xcassets */; };
+		A540063F25C273F500441A34 /* MoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540063E25C273F500441A34 /* MoveViewController.swift */; };
+		A54E097E25B90948007A0515 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E097D25B90948007A0515 /* TabBarController.swift */; };
+		A55134D625B9494A00B95F2A /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55134D525B9494A00B95F2A /* SleepViewController.swift */; };
+		A57CE53D25C14211004D4813 /* AlarmNavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CE53C25C14211004D4813 /* AlarmNavBarController.swift */; };
+		A5E4401925BB735B00E2018C /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E4401825BB735B00E2018C /* AlarmViewController.swift */; };
+		A5E7143625BA3DA40001743E /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7143525BA3DA40001743E /* NavBarController.swift */; };
+		A5E7143C25BA58F20001743E /* SleepNavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7143B25BA58F20001743E /* SleepNavBarController.swift */; };
+		A5FA2D4A25C0CA820063EED1 /* AddEditAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FA2D4925C0CA820063EED1 /* AddEditAlarmViewController.swift */; };
+		CD308DE3277A640E00C47E8F /* ScheduleCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD308DE2277A640E00C47E8F /* ScheduleCalendarCell.swift */; };
+		CD398F1326AF4CA400D24ED7 /* CalendarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD398F1226AF4CA400D24ED7 /* CalendarData.swift */; };
+		CD398F1B26AF9C0E00D24ED7 /* AddToCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD398F1A26AF9C0E00D24ED7 /* AddToCalendarViewController.swift */; };
+		CD398F2026B1355C00D24ED7 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD398F1F26B1355C00D24ED7 /* CalendarViewController.swift */; };
+		CD398F2226B135A700D24ED7 /* CalendarNavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD398F2126B135A700D24ED7 /* CalendarNavBarController.swift */; };
+		CD450DCC267E699000B295C8 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD450DCB267E699000B295C8 /* AppUtility.swift */; };
+		CD450DCE267E7E3800B295C8 /* PrepareUserBeforeDoAlarmMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD450DCD267E7E3800B295C8 /* PrepareUserBeforeDoAlarmMissionViewController.swift */; };
+		CD450DD0267E844600B295C8 /* DoStepAlarmMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD450DCF267E844600B295C8 /* DoStepAlarmMissionViewController.swift */; };
+		CD450DD2267E84D000B295C8 /* DoShakeAlarmMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD450DD1267E84D000B295C8 /* DoShakeAlarmMissionViewController.swift */; };
+		CD450DD4267E8AE500B295C8 /* DoSquatAlarmMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD450DD3267E8AE500B295C8 /* DoSquatAlarmMissionViewController.swift */; };
+		CD450DDC26826E3300B295C8 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD450DDB26826E3300B295C8 /* SoundPlayer.swift */; };
+		CD450DE22682735700B295C8 /* MissionComplete.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD450DE12682735700B295C8 /* MissionComplete.mp3 */; };
+		CD450DE82683B30B00B295C8 /* DoTypingAlarmMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD450DE72683B30B00B295C8 /* DoTypingAlarmMissionViewController.swift */; };
+		CD4B1922268AA55000769311 /* DoMathAlarmMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B1921268AA55000769311 /* DoMathAlarmMissionViewController.swift */; };
+		CD4B1924268B9F8E00769311 /* MissionFail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD4B1923268B9F8D00769311 /* MissionFail.mp3 */; };
+		CD4B1926268BEA5500769311 /* DoMemoAlarmMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B1925268BEA5500769311 /* DoMemoAlarmMissionViewController.swift */; };
+		CD4BE24426587943003985C9 /* Wave sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD4BE24326587943003985C9 /* Wave sound.mp3 */; };
+		CD4BE24626587955003985C9 /* UFO.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD4BE24526587955003985C9 /* UFO.mp3 */; };
+		CD4BE2502661C51C003985C9 /* SelectedAlarmInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BE24F2661C51C003985C9 /* SelectedAlarmInfo.swift */; };
+		CD4BE2542662A80F003985C9 /* UserNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BE2532662A80F003985C9 /* UserNotificationsService.swift */; };
+		CD4BE2582665B0CB003985C9 /* AlarmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BE2572665B0CB003985C9 /* AlarmService.swift */; };
+		CD5084E526A2091A0086B594 /* MotivationQuoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5084E426A2091A0086B594 /* MotivationQuoteData.swift */; };
+		CD5084E726A363560086B594 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5084E626A363560086B594 /* WeatherData.swift */; };
+		CD5084E926A363640086B594 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5084E826A363640086B594 /* WeatherModel.swift */; };
+		CD5084EB26A363720086B594 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5084EA26A363720086B594 /* WeatherManager.swift */; };
+		CD5084ED26A365A90086B594 /* TarotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5084EC26A365A90086B594 /* TarotModel.swift */; };
+		CD5084EF26A365BC0086B594 /* MotivationQuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5084EE26A365BC0086B594 /* MotivationQuoteModel.swift */; };
+		CD644B8C27AB647E00757DE2 /* UpdateAttendeeStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD644B8B27AB647E00757DE2 /* UpdateAttendeeStatusViewController.swift */; };
+		CD6D2917278CD0CB00F3AFB2 /* ConfirmDeleteCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D2916278CD0CB00F3AFB2 /* ConfirmDeleteCalendarViewController.swift */; };
+		CD6D291A278D196D00F3AFB2 /* ConfirmDeleteCaledarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D2919278D196C00F3AFB2 /* ConfirmDeleteCaledarCell.swift */; };
+		CD71C556269E6FF1005699E8 /* TarotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71C555269E6FF1005699E8 /* TarotData.swift */; };
+		CD97FCD125DEF12600ACF282 /* SoundAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97FCD025DEF12600ACF282 /* SoundAlarmViewController.swift */; };
+		CDA7405D27BD8A4C006586F2 /* CycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7405C27BD8A4C006586F2 /* CycleViewController.swift */; };
+		CDA7406127BD909D006586F2 /* AddEditEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7406027BD909D006586F2 /* AddEditEventViewController.swift */; };
+		CDA7406327BDC391006586F2 /* saveSelectedCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7406227BDC391006586F2 /* saveSelectedCalendar.swift */; };
+		CDB2679226A535C5003CC2B2 /* AirQualityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2679126A535C5003CC2B2 /* AirQualityModel.swift */; };
+		CDB2679426A535E2003CC2B2 /* AirQualityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2679326A535E2003CC2B2 /* AirQualityManager.swift */; };
+		CDB2679626A535F1003CC2B2 /* AirQualityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2679526A535F1003CC2B2 /* AirQualityData.swift */; };
+		CDB3E0E2266AE56F00D49CEC /* StopRingingAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3E0E1266AE56F00D49CEC /* StopRingingAlarmViewController.swift */; };
+		CDB8811F27BF286800AA4274 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB8811E27BF286800AA4274 /* MapViewController.swift */; };
+		CDB8812127BF5D6900AA4274 /* MapCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB8812027BF5D6900AA4274 /* MapCalendarCell.swift */; };
+		CDC3B401278E38570058507A /* ManuCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC3B400278E38570058507A /* ManuCalendarCell.swift */; };
+		CDC6696126B34898008FB535 /* SelectAlertForEventTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6696026B34898008FB535 /* SelectAlertForEventTaskViewController.swift */; };
+		CDC6696326B5D1F7008FB535 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6696226B5D1F7008FB535 /* CalendarModel.swift */; };
+		CDC6696A26BA6B59008FB535 /* SearchCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6696926BA6B59008FB535 /* SearchCalendarViewController.swift */; };
+		CDC6696C26BB6A48008FB535 /* MenuCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6696B26BB6A48008FB535 /* MenuCalendarViewController.swift */; };
+		CDC6697626BEFAE5008FB535 /* CustomTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6697526BEFAE4008FB535 /* CustomTapGestureRecognizer.swift */; };
+		CDC6697826BF0AE5008FB535 /* SelectedCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6697726BF0AE5008FB535 /* SelectedCalendarViewController.swift */; };
+		CDC6697C26C0C227008FB535 /* WeekCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6697B26C0C226008FB535 /* WeekCalendarCell.swift */; };
+		CDC6697E26C0C2B6008FB535 /* EditCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6697D26C0C2B6008FB535 /* EditCalendarCell.swift */; };
+		CDCB8CDF269B7C5D00B36E9E /* SelectedTarotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB8CDE269B7C5D00B36E9E /* SelectedTarotViewController.swift */; };
+		CDCB8CE1269B7CA700B36E9E /* DailyHoroscopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB8CE0269B7CA700B36E9E /* DailyHoroscopeViewController.swift */; };
+		CDE8D940267294B6003D04C9 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D93F267294B6003D04C9 /* TestVC.swift */; };
+		CDE8D9422672D7C9003D04C9 /* SelectedScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D9412672D7C8003D04C9 /* SelectedScene.swift */; };
+		CDE8D94A2678353C003D04C9 /* DailyAlarmInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D9492678353C003D04C9 /* DailyAlarmInfoViewController.swift */; };
+		CDE8D94C26791645003D04C9 /* SelectAlarmMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D94B26791645003D04C9 /* SelectAlarmMissionViewController.swift */; };
+		CDFA8F81262E6E3700F34546 /* workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA8F80262E6E3700F34546 /* workout.swift */; };
+		CDFA8F84262E779800F34546 /* oldsound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA8F83262E779800F34546 /* oldsound.swift */; };
+		CDFA8F8A262EB8D600F34546 /* Default.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA8F89262EB8D600F34546 /* Default.mp3 */; };
+		CDFA8F8F262EBF8300F34546 /* Bird song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA8F8E262EBF8200F34546 /* Bird song.mp3 */; };
+		CDFC372F2787AC6200EE5133 /* AddEditEventTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC372E2787AC6200EE5133 /* AddEditEventTaskViewController.swift */; };
+		DC4247BDF54CAE5CE161A764 /* Pods_Sunomoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF8339F47C9101EFE2EB6 /* Pods_Sunomoon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D3516400FF5D1E5D4013E76 /* Pods-Sunomoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunomoon.release.xcconfig"; path = "Target Support Files/Pods-Sunomoon/Pods-Sunomoon.release.xcconfig"; sourceTree = "<group>"; };
+		445621C3F776FB51FAFB8DF3 /* Pods-Sunomoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunomoon.debug.xcconfig"; path = "Target Support Files/Pods-Sunomoon/Pods-Sunomoon.debug.xcconfig"; sourceTree = "<group>"; };
+		A51CFB3125D72C5000FCD487 /* extraHelpForAddEditAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extraHelpForAddEditAlarmViewController.swift; sourceTree = "<group>"; };
+		A51CFB4B25D74F4400FCD487 /* EditAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAlarmViewController.swift; sourceTree = "<group>"; };
+		A52E40A125B25DAB007417A3 /* Sunomoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunomoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52E40A425B25DAB007417A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A52E40A625B25DAB007417A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A52E40A825B25DAB007417A3 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		A52E40AB25B25DAB007417A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A52E40AD25B25DB1007417A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A52E40B225B25DB1007417A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52EAF6A25D5EED700F6BEB1 /* AlarmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmData.swift; sourceTree = "<group>"; };
+		A537FF2D25B77427002E0E09 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A540063E25C273F500441A34 /* MoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveViewController.swift; sourceTree = "<group>"; };
+		A54E097D25B90948007A0515 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A55134D525B9494A00B95F2A /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		A57CE53C25C14211004D4813 /* AlarmNavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmNavBarController.swift; sourceTree = "<group>"; };
+		A5E4401825BB735B00E2018C /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		A5E7143525BA3DA40001743E /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		A5E7143B25BA58F20001743E /* SleepNavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepNavBarController.swift; sourceTree = "<group>"; };
+		A5FA2D4925C0CA820063EED1 /* AddEditAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmViewController.swift; sourceTree = "<group>"; };
+		CD308DE2277A640E00C47E8F /* ScheduleCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCalendarCell.swift; sourceTree = "<group>"; };
+		CD398F1226AF4CA400D24ED7 /* CalendarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarData.swift; sourceTree = "<group>"; };
+		CD398F1A26AF9C0E00D24ED7 /* AddToCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCalendarViewController.swift; sourceTree = "<group>"; };
+		CD398F1F26B1355C00D24ED7 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		CD398F2126B135A700D24ED7 /* CalendarNavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarNavBarController.swift; sourceTree = "<group>"; };
+		CD450DCB267E699000B295C8 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		CD450DCD267E7E3800B295C8 /* PrepareUserBeforeDoAlarmMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareUserBeforeDoAlarmMissionViewController.swift; sourceTree = "<group>"; };
+		CD450DCF267E844600B295C8 /* DoStepAlarmMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoStepAlarmMissionViewController.swift; sourceTree = "<group>"; };
+		CD450DD1267E84D000B295C8 /* DoShakeAlarmMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoShakeAlarmMissionViewController.swift; sourceTree = "<group>"; };
+		CD450DD3267E8AE500B295C8 /* DoSquatAlarmMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoSquatAlarmMissionViewController.swift; sourceTree = "<group>"; };
+		CD450DDB26826E3300B295C8 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		CD450DE12682735700B295C8 /* MissionComplete.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MissionComplete.mp3; sourceTree = "<group>"; };
+		CD450DE72683B30B00B295C8 /* DoTypingAlarmMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTypingAlarmMissionViewController.swift; sourceTree = "<group>"; };
+		CD4B1921268AA55000769311 /* DoMathAlarmMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoMathAlarmMissionViewController.swift; sourceTree = "<group>"; };
+		CD4B1923268B9F8D00769311 /* MissionFail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MissionFail.mp3; sourceTree = "<group>"; };
+		CD4B1925268BEA5500769311 /* DoMemoAlarmMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoMemoAlarmMissionViewController.swift; sourceTree = "<group>"; };
+		CD4BE24326587943003985C9 /* Wave sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wave sound.mp3"; sourceTree = "<group>"; };
+		CD4BE24526587955003985C9 /* UFO.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = UFO.mp3; sourceTree = "<group>"; };
+		CD4BE24F2661C51C003985C9 /* SelectedAlarmInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedAlarmInfo.swift; sourceTree = "<group>"; };
+		CD4BE2532662A80F003985C9 /* UserNotificationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationsService.swift; sourceTree = "<group>"; };
+		CD4BE2572665B0CB003985C9 /* AlarmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmService.swift; sourceTree = "<group>"; };
+		CD5084E426A2091A0086B594 /* MotivationQuoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationQuoteData.swift; sourceTree = "<group>"; };
+		CD5084E626A363560086B594 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		CD5084E826A363640086B594 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		CD5084EA26A363720086B594 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		CD5084EC26A365A90086B594 /* TarotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotModel.swift; sourceTree = "<group>"; };
+		CD5084EE26A365BC0086B594 /* MotivationQuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationQuoteModel.swift; sourceTree = "<group>"; };
+		CD644B8B27AB647E00757DE2 /* UpdateAttendeeStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAttendeeStatusViewController.swift; sourceTree = "<group>"; };
+		CD6D2916278CD0CB00F3AFB2 /* ConfirmDeleteCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDeleteCalendarViewController.swift; sourceTree = "<group>"; };
+		CD6D2919278D196C00F3AFB2 /* ConfirmDeleteCaledarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDeleteCaledarCell.swift; sourceTree = "<group>"; };
+		CD71C555269E6FF1005699E8 /* TarotData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotData.swift; sourceTree = "<group>"; };
+		CD97FCD025DEF12600ACF282 /* SoundAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAlarmViewController.swift; sourceTree = "<group>"; };
+		CDA7405C27BD8A4C006586F2 /* CycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleViewController.swift; sourceTree = "<group>"; };
+		CDA7406027BD909D006586F2 /* AddEditEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditEventViewController.swift; sourceTree = "<group>"; };
+		CDA7406227BDC391006586F2 /* saveSelectedCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveSelectedCalendar.swift; sourceTree = "<group>"; };
+		CDB2679126A535C5003CC2B2 /* AirQualityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityModel.swift; sourceTree = "<group>"; };
+		CDB2679326A535E2003CC2B2 /* AirQualityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityManager.swift; sourceTree = "<group>"; };
+		CDB2679526A535F1003CC2B2 /* AirQualityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityData.swift; sourceTree = "<group>"; };
+		CDB3E0E1266AE56F00D49CEC /* StopRingingAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopRingingAlarmViewController.swift; sourceTree = "<group>"; };
+		CDB8811E27BF286800AA4274 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CDB8812027BF5D6900AA4274 /* MapCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCalendarCell.swift; sourceTree = "<group>"; };
+		CDC3B400278E38570058507A /* ManuCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuCalendarCell.swift; sourceTree = "<group>"; };
+		CDC6696026B34898008FB535 /* SelectAlertForEventTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAlertForEventTaskViewController.swift; sourceTree = "<group>"; };
+		CDC6696226B5D1F7008FB535 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		CDC6696926BA6B59008FB535 /* SearchCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCalendarViewController.swift; sourceTree = "<group>"; };
+		CDC6696B26BB6A48008FB535 /* MenuCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCalendarViewController.swift; sourceTree = "<group>"; };
+		CDC6697526BEFAE4008FB535 /* CustomTapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		CDC6697726BF0AE5008FB535 /* SelectedCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCalendarViewController.swift; sourceTree = "<group>"; };
+		CDC6697B26C0C226008FB535 /* WeekCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCalendarCell.swift; sourceTree = "<group>"; };
+		CDC6697D26C0C2B6008FB535 /* EditCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCalendarCell.swift; sourceTree = "<group>"; };
+		CDCB8CDE269B7C5D00B36E9E /* SelectedTarotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTarotViewController.swift; sourceTree = "<group>"; };
+		CDCB8CE0269B7CA700B36E9E /* DailyHoroscopeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHoroscopeViewController.swift; sourceTree = "<group>"; };
+		CDE8D93F267294B6003D04C9 /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		CDE8D9412672D7C8003D04C9 /* SelectedScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedScene.swift; sourceTree = "<group>"; };
+		CDE8D9492678353C003D04C9 /* DailyAlarmInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAlarmInfoViewController.swift; sourceTree = "<group>"; };
+		CDE8D94B26791645003D04C9 /* SelectAlarmMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAlarmMissionViewController.swift; sourceTree = "<group>"; };
+		CDFA8F80262E6E3700F34546 /* workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workout.swift; sourceTree = "<group>"; };
+		CDFA8F83262E779800F34546 /* oldsound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oldsound.swift; sourceTree = "<group>"; };
+		CDFA8F89262EB8D600F34546 /* Default.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Default.mp3; sourceTree = "<group>"; };
+		CDFA8F8E262EBF8200F34546 /* Bird song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bird song.mp3"; sourceTree = "<group>"; };
+		CDFC372E2787AC6200EE5133 /* AddEditEventTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditEventTaskViewController.swift; sourceTree = "<group>"; };
+		E97AF8339F47C9101EFE2EB6 /* Pods_Sunomoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunomoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A52E409E25B25DAB007417A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4247BDF54CAE5CE161A764 /* Pods_Sunomoon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47626F294ED922184F5A69A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E97AF8339F47C9101EFE2EB6 /* Pods_Sunomoon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5076D24E4C72954D88ABC143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				445621C3F776FB51FAFB8DF3 /* Pods-Sunomoon.debug.xcconfig */,
+				2D3516400FF5D1E5D4013E76 /* Pods-Sunomoon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A52E409825B25DAB007417A3 = {
+			isa = PBXGroup;
+			children = (
+				A52E40A325B25DAB007417A3 /* Sunomoon */,
+				A52E40A225B25DAB007417A3 /* Products */,
+				5076D24E4C72954D88ABC143 /* Pods */,
+				47626F294ED922184F5A69A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A52E40A225B25DAB007417A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A52E40A125B25DAB007417A3 /* Sunomoon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A52E40A325B25DAB007417A3 /* Sunomoon */ = {
+			isa = PBXGroup;
+			children = (
+				CD4BE2522662A7ED003985C9 /* Service */,
+				CDFA8F88262EB85800F34546 /* AlarmSound */,
+				A5E4403025BB8A9300E2018C /* View */,
+				A52EAF7525D5F4AB00F6BEB1 /* Model */,
+				CD4BE2512662A78D003985C9 /* Controller */,
+				CD97FCC825DED8DB00ACF282 /* TabBar */,
+				CD97FCC925DED8F600ACF282 /* NavBar */,
+				A52E40B225B25DB1007417A3 /* Info.plist */,
+				A52E40A425B25DAB007417A3 /* AppDelegate.swift */,
+				A52E40A625B25DAB007417A3 /* SceneDelegate.swift */,
+				A52E40AD25B25DB1007417A3 /* Assets.xcassets */,
+				CD97FCC725DED8B400ACF282 /* Do not use */,
+			);
+			path = Sunomoon;
+			sourceTree = "<group>";
+		};
+		A52EAF7525D5F4AB00F6BEB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A52EAF6A25D5EED700F6BEB1 /* AlarmData.swift */,
+				CD4BE24F2661C51C003985C9 /* SelectedAlarmInfo.swift */,
+				CD450DDB26826E3300B295C8 /* SoundPlayer.swift */,
+				CD5084EE26A365BC0086B594 /* MotivationQuoteModel.swift */,
+				CD5084E426A2091A0086B594 /* MotivationQuoteData.swift */,
+				CD5084EC26A365A90086B594 /* TarotModel.swift */,
+				CD71C555269E6FF1005699E8 /* TarotData.swift */,
+				CD5084EA26A363720086B594 /* WeatherManager.swift */,
+				CD5084E826A363640086B594 /* WeatherModel.swift */,
+				CD5084E626A363560086B594 /* WeatherData.swift */,
+				CDB2679326A535E2003CC2B2 /* AirQualityManager.swift */,
+				CDB2679126A535C5003CC2B2 /* AirQualityModel.swift */,
+				CDB2679526A535F1003CC2B2 /* AirQualityData.swift */,
+				CDC6696226B5D1F7008FB535 /* CalendarModel.swift */,
+				CD398F1226AF4CA400D24ED7 /* CalendarData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5E4403025BB8A9300E2018C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A52E40AA25B25DAB007417A3 /* Main.storyboard */,
+				A537FF2D25B77427002E0E09 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD398F1E26B1354100D24ED7 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CD398F1F26B1355C00D24ED7 /* CalendarViewController.swift */,
+				CDC6696B26BB6A48008FB535 /* MenuCalendarViewController.swift */,
+				CDC6697726BF0AE5008FB535 /* SelectedCalendarViewController.swift */,
+				CD644B8B27AB647E00757DE2 /* UpdateAttendeeStatusViewController.swift */,
+				CD6D2916278CD0CB00F3AFB2 /* ConfirmDeleteCalendarViewController.swift */,
+				CDC6696026B34898008FB535 /* SelectAlertForEventTaskViewController.swift */,
+				CDC6696926BA6B59008FB535 /* SearchCalendarViewController.swift */,
+				CDC3B400278E38570058507A /* ManuCalendarCell.swift */,
+				CDC6697D26C0C2B6008FB535 /* EditCalendarCell.swift */,
+				CDB8811E27BF286800AA4274 /* MapViewController.swift */,
+				CDB8812027BF5D6900AA4274 /* MapCalendarCell.swift */,
+				CDC6697B26C0C226008FB535 /* WeekCalendarCell.swift */,
+				CD308DE2277A640E00C47E8F /* ScheduleCalendarCell.swift */,
+				CD6D2919278D196C00F3AFB2 /* ConfirmDeleteCaledarCell.swift */,
+				CDA7406027BD909D006586F2 /* AddEditEventViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		CD4BE2512662A78D003985C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD7F75BB26D417F6004C65D2 /* Today */,
+				CD7F75BC26D417FF004C65D2 /* Sleep */,
+				CD5F4C882698CED20001AA6A /* Alarm */,
+				CD7F75BD26D41809004C65D2 /* Move */,
+				CDA7405B27BD8A32006586F2 /* Cycle */,
+				CD398F1E26B1354100D24ED7 /* Calendar */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD4BE2522662A7ED003985C9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD4BE2572665B0CB003985C9 /* AlarmService.swift */,
+				CD4BE2532662A80F003985C9 /* UserNotificationsService.swift */,
+				CDE8D9412672D7C8003D04C9 /* SelectedScene.swift */,
+				CD450DCB267E699000B295C8 /* AppUtility.swift */,
+				CDC6697526BEFAE4008FB535 /* CustomTapGestureRecognizer.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CD5F4C882698CED20001AA6A /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				A5E4401825BB735B00E2018C /* AlarmViewController.swift */,
+				A5FA2D4925C0CA820063EED1 /* AddEditAlarmViewController.swift */,
+				CD97FCD025DEF12600ACF282 /* SoundAlarmViewController.swift */,
+				CDE8D94B26791645003D04C9 /* SelectAlarmMissionViewController.swift */,
+				CDB3E0E1266AE56F00D49CEC /* StopRingingAlarmViewController.swift */,
+				CD450DCD267E7E3800B295C8 /* PrepareUserBeforeDoAlarmMissionViewController.swift */,
+				CD4B1925268BEA5500769311 /* DoMemoAlarmMissionViewController.swift */,
+				CD450DD3267E8AE500B295C8 /* DoSquatAlarmMissionViewController.swift */,
+				CD4B1921268AA55000769311 /* DoMathAlarmMissionViewController.swift */,
+				CD450DE72683B30B00B295C8 /* DoTypingAlarmMissionViewController.swift */,
+				CD450DD1267E84D000B295C8 /* DoShakeAlarmMissionViewController.swift */,
+				CDE8D9492678353C003D04C9 /* DailyAlarmInfoViewController.swift */,
+				CDCB8CE0269B7CA700B36E9E /* DailyHoroscopeViewController.swift */,
+				CDCB8CDE269B7C5D00B36E9E /* SelectedTarotViewController.swift */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		CD7F75BB26D417F6004C65D2 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				A52E40A825B25DAB007417A3 /* TodayViewController.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		CD7F75BC26D417FF004C65D2 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				A55134D525B9494A00B95F2A /* SleepViewController.swift */,
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		CD7F75BD26D41809004C65D2 /* Move */ = {
+			isa = PBXGroup;
+			children = (
+				A540063E25C273F500441A34 /* MoveViewController.swift */,
+			);
+			path = Move;
+			sourceTree = "<group>";
+		};
+		CD97FCC725DED8B400ACF282 /* Do not use */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC372E2787AC6200EE5133 /* AddEditEventTaskViewController.swift */,
+				CDA7406227BDC391006586F2 /* saveSelectedCalendar.swift */,
+				CDFA8F80262E6E3700F34546 /* workout.swift */,
+				CD450DCF267E844600B295C8 /* DoStepAlarmMissionViewController.swift */,
+				CDE8D93F267294B6003D04C9 /* TestVC.swift */,
+				CD398F1A26AF9C0E00D24ED7 /* AddToCalendarViewController.swift */,
+				A51CFB3125D72C5000FCD487 /* extraHelpForAddEditAlarmViewController.swift */,
+				CDFA8F83262E779800F34546 /* oldsound.swift */,
+				A51CFB4B25D74F4400FCD487 /* EditAlarmViewController.swift */,
+			);
+			path = "Do not use";
+			sourceTree = "<group>";
+		};
+		CD97FCC825DED8DB00ACF282 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A54E097D25B90948007A0515 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CD97FCC925DED8F600ACF282 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				A5E7143B25BA58F20001743E /* SleepNavBarController.swift */,
+				A57CE53C25C14211004D4813 /* AlarmNavBarController.swift */,
+				CD398F2126B135A700D24ED7 /* CalendarNavBarController.swift */,
+				A5E7143525BA3DA40001743E /* NavBarController.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		CDA7405B27BD8A32006586F2 /* Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7405C27BD8A4C006586F2 /* CycleViewController.swift */,
+			);
+			path = Cycle;
+			sourceTree = "<group>";
+		};
+		CDFA8F88262EB85800F34546 /* AlarmSound */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA8F89262EB8D600F34546 /* Default.mp3 */,
+				CD4BE24326587943003985C9 /* Wave sound.mp3 */,
+				CD4BE24526587955003985C9 /* UFO.mp3 */,
+				CD450DE12682735700B295C8 /* MissionComplete.mp3 */,
+				CD4B1923268B9F8D00769311 /* MissionFail.mp3 */,
+				CDFA8F8E262EBF8200F34546 /* Bird song.mp3 */,
+			);
+			path = AlarmSound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A52E40A025B25DAB007417A3 /* Sunomoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52E40B525B25DB1007417A3 /* Build configuration list for PBXNativeTarget "Sunomoon" */;
+			buildPhases = (
+				A6D8AB0EDC1CA44CE93AC76F /* [CP] Check Pods Manifest.lock */,
+				A52E409D25B25DAB007417A3 /* Sources */,
+				A52E409E25B25DAB007417A3 /* Frameworks */,
+				A52E409F25B25DAB007417A3 /* Resources */,
+				42BDD6708AD2C409C02FDA18 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunomoon;
+			productName = Sunomoon;
+			productReference = A52E40A125B25DAB007417A3 /* Sunomoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A52E409925B25DAB007417A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A52E40A025B25DAB007417A3 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = A52E409C25B25DAB007417A3 /* Build configuration list for PBXProject "Sunomoon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A52E409825B25DAB007417A3;
+			productRefGroup = A52E40A225B25DAB007417A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A52E40A025B25DAB007417A3 /* Sunomoon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A52E409F25B25DAB007417A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A537FF3725B7818D002E0E09 /* Assets.xcassets in Resources */,
+				CD4B1924268B9F8E00769311 /* MissionFail.mp3 in Resources */,
+				CD4BE24626587955003985C9 /* UFO.mp3 in Resources */,
+				A537FF2E25B77427002E0E09 /* LaunchScreen.storyboard in Resources */,
+				CD4BE24426587943003985C9 /* Wave sound.mp3 in Resources */,
+				CD450DE22682735700B295C8 /* MissionComplete.mp3 in Resources */,
+				CDFA8F8F262EBF8300F34546 /* Bird song.mp3 in Resources */,
+				CDFA8F8A262EB8D600F34546 /* Default.mp3 in Resources */,
+				A52BAE5725B7956300C214FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42BDD6708AD2C409C02FDA18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sunomoon/Pods-Sunomoon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sunomoon/Pods-Sunomoon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sunomoon/Pods-Sunomoon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D8AB0EDC1CA44CE93AC76F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sunomoon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A52E409D25B25DAB007417A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52EAF6B25D5EED700F6BEB1 /* AlarmData.swift in Sources */,
+				CD450DD4267E8AE500B295C8 /* DoSquatAlarmMissionViewController.swift in Sources */,
+				A5E4401925BB735B00E2018C /* AlarmViewController.swift in Sources */,
+				CD450DCC267E699000B295C8 /* AppUtility.swift in Sources */,
+				CDCB8CE1269B7CA700B36E9E /* DailyHoroscopeViewController.swift in Sources */,
+				CDB2679626A535F1003CC2B2 /* AirQualityData.swift in Sources */,
+				CD71C556269E6FF1005699E8 /* TarotData.swift in Sources */,
+				CDC6696126B34898008FB535 /* SelectAlertForEventTaskViewController.swift in Sources */,
+				CD398F1B26AF9C0E00D24ED7 /* AddToCalendarViewController.swift in Sources */,
+				CD5084EB26A363720086B594 /* WeatherManager.swift in Sources */,
+				A52E40A925B25DAB007417A3 /* TodayViewController.swift in Sources */,
+				A54E097E25B90948007A0515 /* TabBarController.swift in Sources */,
+				CDFC372F2787AC6200EE5133 /* AddEditEventTaskViewController.swift in Sources */,
+				CD308DE3277A640E00C47E8F /* ScheduleCalendarCell.swift in Sources */,
+				CDE8D940267294B6003D04C9 /* TestVC.swift in Sources */,
+				CDFA8F84262E779800F34546 /* oldsound.swift in Sources */,
+				CD4B1922268AA55000769311 /* DoMathAlarmMissionViewController.swift in Sources */,
+				CDB2679226A535C5003CC2B2 /* AirQualityModel.swift in Sources */,
+				CD4BE2542662A80F003985C9 /* UserNotificationsService.swift in Sources */,
+				CDB3E0E2266AE56F00D49CEC /* StopRingingAlarmViewController.swift in Sources */,
+				CDC6696326B5D1F7008FB535 /* CalendarModel.swift in Sources */,
+				CDA7405D27BD8A4C006586F2 /* CycleViewController.swift in Sources */,
+				CD5084E926A363640086B594 /* WeatherModel.swift in Sources */,
+				A55134D625B9494A00B95F2A /* SleepViewController.swift in Sources */,
+				A52E40A525B25DAB007417A3 /* AppDelegate.swift in Sources */,
+				A51CFB3225D72C5000FCD487 /* extraHelpForAddEditAlarmViewController.swift in Sources */,
+				CD5084E726A363560086B594 /* WeatherData.swift in Sources */,
+				CDC6697826BF0AE5008FB535 /* SelectedCalendarViewController.swift in Sources */,
+				CD5084ED26A365A90086B594 /* TarotModel.swift in Sources */,
+				CDC6696A26BA6B59008FB535 /* SearchCalendarViewController.swift in Sources */,
+				CDC6697C26C0C227008FB535 /* WeekCalendarCell.swift in Sources */,
+				CD450DDC26826E3300B295C8 /* SoundPlayer.swift in Sources */,
+				CDCB8CDF269B7C5D00B36E9E /* SelectedTarotViewController.swift in Sources */,
+				CD5084EF26A365BC0086B594 /* MotivationQuoteModel.swift in Sources */,
+				CDE8D9422672D7C9003D04C9 /* SelectedScene.swift in Sources */,
+				CD450DD2267E84D000B295C8 /* DoShakeAlarmMissionViewController.swift in Sources */,
+				A540063F25C273F500441A34 /* MoveViewController.swift in Sources */,
+				CD450DE82683B30B00B295C8 /* DoTypingAlarmMissionViewController.swift in Sources */,
+				CDFA8F81262E6E3700F34546 /* workout.swift in Sources */,
+				CD4BE2502661C51C003985C9 /* SelectedAlarmInfo.swift in Sources */,
+				CDA7406327BDC391006586F2 /* saveSelectedCalendar.swift in Sources */,
+				CDC6696C26BB6A48008FB535 /* MenuCalendarViewController.swift in Sources */,
+				CD644B8C27AB647E00757DE2 /* UpdateAttendeeStatusViewController.swift in Sources */,
+				CD6D291A278D196D00F3AFB2 /* ConfirmDeleteCaledarCell.swift in Sources */,
+				A5E7143625BA3DA40001743E /* NavBarController.swift in Sources */,
+				A51CFB4C25D74F4400FCD487 /* EditAlarmViewController.swift in Sources */,
+				A5FA2D4A25C0CA820063EED1 /* AddEditAlarmViewController.swift in Sources */,
+				CD398F2026B1355C00D24ED7 /* CalendarViewController.swift in Sources */,
+				A52E40A725B25DAB007417A3 /* SceneDelegate.swift in Sources */,
+				CD398F1326AF4CA400D24ED7 /* CalendarData.swift in Sources */,
+				CD4B1926268BEA5500769311 /* DoMemoAlarmMissionViewController.swift in Sources */,
+				CD398F2226B135A700D24ED7 /* CalendarNavBarController.swift in Sources */,
+				A5E7143C25BA58F20001743E /* SleepNavBarController.swift in Sources */,
+				CD4BE2582665B0CB003985C9 /* AlarmService.swift in Sources */,
+				CDE8D94C26791645003D04C9 /* SelectAlarmMissionViewController.swift in Sources */,
+				CDB8812127BF5D6900AA4274 /* MapCalendarCell.swift in Sources */,
+				CD6D2917278CD0CB00F3AFB2 /* ConfirmDeleteCalendarViewController.swift in Sources */,
+				CDC3B401278E38570058507A /* ManuCalendarCell.swift in Sources */,
+				CDA7406127BD909D006586F2 /* AddEditEventViewController.swift in Sources */,
+				CDC6697E26C0C2B6008FB535 /* EditCalendarCell.swift in Sources */,
+				CD97FCD125DEF12600ACF282 /* SoundAlarmViewController.swift in Sources */,
+				CDE8D94A2678353C003D04C9 /* DailyAlarmInfoViewController.swift in Sources */,
+				CD5084E526A2091A0086B594 /* MotivationQuoteData.swift in Sources */,
+				CDC6697626BEFAE5008FB535 /* CustomTapGestureRecognizer.swift in Sources */,
+				A57CE53D25C14211004D4813 /* AlarmNavBarController.swift in Sources */,
+				CD450DD0267E844600B295C8 /* DoStepAlarmMissionViewController.swift in Sources */,
+				CDB2679426A535E2003CC2B2 /* AirQualityManager.swift in Sources */,
+				CD450DCE267E7E3800B295C8 /* PrepareUserBeforeDoAlarmMissionViewController.swift in Sources */,
+				CDB8811F27BF286800AA4274 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A52E40AA25B25DAB007417A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52E40AB25B25DAB007417A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A52E40B325B25DB1007417A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A52E40B425B25DB1007417A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A52E40B625B25DB1007417A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445621C3F776FB51FAFB8DF3 /* Pods-Sunomoon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37X3K9H7HY;
+				INFOPLIST_FILE = Sunomoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Luksaweephanri.Sunomoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A52E40B725B25DB1007417A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3516400FF5D1E5D4013E76 /* Pods-Sunomoon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37X3K9H7HY;
+				INFOPLIST_FILE = Sunomoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Luksaweephanri.Sunomoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A52E409C25B25DAB007417A3 /* Build configuration list for PBXProject "Sunomoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52E40B325B25DB1007417A3 /* Debug */,
+				A52E40B425B25DB1007417A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52E40B525B25DB1007417A3 /* Build configuration list for PBXNativeTarget "Sunomoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52E40B625B25DB1007417A3 /* Debug */,
+				A52E40B725B25DB1007417A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A52E409925B25DAB007417A3 /* Project object */;
+}
